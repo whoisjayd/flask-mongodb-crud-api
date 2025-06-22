@@ -1,11 +1,22 @@
 # Flask MongoDB CRUD API
 
-## Features
-- **User Management** - Create, read, update, delete users
-- **Secure Password Hashing** - Uses `bcrypt` for storing passwords securely
-- **Logging & Error Handling** - Uses `logging` to track errors & events
+![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=https://github.com/whoisjayd/flask-mongodb-crud-api)
+[![Python Version](https://img.shields.io/badge/python-3.x-brightgreen.svg)](https://python.org)
+[![Flask Version](https://img.shields.io/badge/flask-2.x-blue.svg)](https://flask.palletsprojects.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-4.4+-green.svg)](https://www.mongodb.com/)
+[![Docker](https://img.shields.io/badge/docker-supported-blue.svg)](https://www.docker.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
----
+A comprehensive, ready-to-use RESTful API for user management, built with Flask and MongoDB. This project provides a solid foundation for applications requiring user authentication and data management, with a focus on security and scalability.
+
+## Features
+
+- **Full CRUD Functionality**: Endpoints for creating, reading, updating, and deleting users.
+- **Secure by Design**: Passwords are securely hashed using `bcrypt` to protect user data.
+- **Centralized Logging**: In-depth logging of application events and errors for easier debugging.
+- **Dockerized Environment**: Includes a `Dockerfile` for easy containerization and deployment.
+- **Environment-Based Configuration**: Simple setup using environment variables for sensitive data.
+
 
 ## Installation & Setup
 
@@ -31,7 +42,7 @@ python main.py
 ```
 By default, the API runs at `http://localhost:5000/`.
 
----
+
 
 ## Docker Support
 
@@ -116,7 +127,7 @@ DELETE /users/{user_id}
 **Response:**
 ![delete_user](assets/delete_user.png)
 
----
+
 
 ## Proofs
 - Data Getting Stored
